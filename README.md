@@ -4,7 +4,6 @@
 
 **OBS.:** Pode utilizar para um teste de ambiente AWS, mas precisa organizar algumas coisinhas!
 
-
 ---
 
 Exemplo:
@@ -17,3 +16,7 @@ terraform plan --var-file=../env.tfvars
 terraform apply --var-file=../env.tfvars
 terraform destroy --var-file=../env.tfvars
 ```
+
+---
+
+**OBS.:** Existe variáveis expostas, mas é somente um repositório de exemplo!
