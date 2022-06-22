@@ -1,0 +1,16 @@
+
+version: '3'
+
+services:
+   mysql:
+     image: mysql:5.7
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: 'MySQL2022'
+       MYSQL_DATABASE: 'wordpress'
+       MYSQL_USER: 'myuser'
+       MYSQL_PASSWORD: 'MySQL2022'
+     ports:
+      - 3306:3006
+    # volumes:
+    #    - data/MySQL:/var/lib/mysql

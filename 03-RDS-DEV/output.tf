@@ -1,0 +1,14 @@
+# #################
+# RDS AURORA
+
+output "rds_endpoint_mysql" {
+  value = aws_rds_cluster_instance.cluster_instances.endpoint
+}
+
+
+# # #################
+# # RDS
+
+# output "rds_endpoint_mysql" {
+#   value = aws_db_instance.mydb.endpoint
+# }
