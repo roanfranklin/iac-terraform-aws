@@ -27,8 +27,8 @@ subnet_public_az2_id = "subnet-39577115"
 vpc_env_id = "vpc-b37e9c1c"
 
 # OUTPUT 03-RDS-DEV
-rds_endpoint_mysql = "192.168.26.26"
+rds_endpoint_mysql = "db1.aaaaaaaaaa.us-east-1.rds.amazonaws.com"
 
 # OUTPUT 04-Ec2-DEV
-myinstance_env_public_dns = "ec2-127-140-231-232.compute-1.amazonaws.com"
-myinstance_env_public_ip = "127.140.231.232"
+myinstance_env_public_dns = "ec2-127-185-219-128.compute-1.amazonaws.com"
+myinstance_env_public_ip = "127.185.219.128"

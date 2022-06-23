@@ -6,12 +6,13 @@
 # }
 
 
-# #################
-# RDS
+# # #################
+# # RDS
 
-output "rds_endpoint_mysql" {
-  value = aws_db_instance.mydb.endpoint
-}
+# output "rds_endpoint_mysql" {
+#   value = aws_db_instance.mydb.endpoint
+# }
+
 
 
 output "vpc_security_group_ids" {

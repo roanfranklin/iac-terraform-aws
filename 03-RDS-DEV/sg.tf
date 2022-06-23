@@ -10,7 +10,8 @@ resource "aws_security_group" "env-rds-sg" {
     from_port = 3306
     to_port   = 3306
     cidr_blocks = [
-      var.vpc_env_cidr
+      var.vpc_env_cidr,
+      "0.0.0.0/0"
     ]
   }
 

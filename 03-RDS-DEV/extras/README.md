@@ -42,9 +42,9 @@ awslocal secretsmanager create-secret --name dbpass --secret-string test
 
 awslocal rds create-db-instance \
     --db-instance-identifier db1 \
-    --db-instance-class c1 \
+    --db-instance-class db.t3.medium \
     --engine mysql \
-    --vpc-security-group-ids sg-cf757bd6b3438fe7d \
+    --vpc-security-group-ids sg-ccacb9b07a7f1a9c5 \
     --master-username masterawsuser \
     --master-user-password masteruserpassword
 
