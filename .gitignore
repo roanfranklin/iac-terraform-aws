@@ -3,3 +3,5 @@
 
 # env.tfvars
 
+*/localstack*.tf
+*/*/localstack*.tf
