@@ -20,11 +20,11 @@ public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD3F6tyPEFEzV0LX3X8BsXdMsQz1x
 # OUTPUTS
 
 # OUTPUT 02-Network-DEV
-subnet_private_az1_id = "subnet-d95a3fbc"
-subnet_private_az2_id = "subnet-7cd29216"
-subnet_public_az1_id = "subnet-ac8f24b8"
-subnet_public_az2_id = "subnet-ce178640"
-vpc_env_id = "vpc-2588c43c"
+subnet_private_az1_id = "subnet-e16c68cb"
+subnet_private_az2_id = "subnet-d68bffd4"
+subnet_public_az1_id = "subnet-daaa89df"
+subnet_public_az2_id = "subnet-39577115"
+vpc_env_id = "vpc-b37e9c1c"
 
 # OUTPUT 03-RDS-DEV
 rds_endpoint_mysql = "192.168.26.26"
