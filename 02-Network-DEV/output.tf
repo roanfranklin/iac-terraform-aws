@@ -1,13 +1,8 @@
-
 # #########################
 # VPC / CIDR
 
 output "vpc_env_id" {
   value = aws_vpc.vpc_env.id
-}
-
-output "vpc_env_cidr" {
-  value = aws_vpc.vpc_env.cidr_block
 }
 
 # # #####################

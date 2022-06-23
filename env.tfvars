@@ -2,6 +2,12 @@ region = "us-east-1"
 
 environment = "dev"
 
+vpc_env_cidr = "10.1.0.0/16"
+subnet_private_az1  = "10.1.0.0/20"
+subnet_private_az2 = "10.1.16.0/20"
+subnet_public_az1 = "10.1.48.0/20"
+subnet_public_az2 = "10.1.64.0/20"
+
 rds_database_mysql = "wordpress"
 rds_username_mysql = "myuser"
 rds_password_mysql = "MySQL2022"
@@ -16,7 +22,6 @@ subnet_private_az1_id = "subnet-d95a3fbc"
 subnet_private_az2_id = "subnet-7cd29216"
 subnet_public_az1_id = "subnet-ac8f24b8"
 subnet_public_az2_id = "subnet-ce178640"
-vpc_env_cidr = "10.1.0.0/16"
 vpc_env_id = "vpc-2588c43c"
 
 # OUTPUT 03-RDS-DEV
